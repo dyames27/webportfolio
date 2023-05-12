@@ -1,0 +1,183 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*fonts*/
+
+.barriecito {
+	font-family: 'Barriecito', cursive;
+}
+
+.roboto-light {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: lighter;
+}
+
+.roboto-light-italic{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+.roboto-regular {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: normal;
+}
+
+.roboto-regular-italic {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.roboto-bold {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+}
+
+.roboto-bold-italic {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.ibm-regular {
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+
+/*colors*/
+.indigo {
+	color: #6610f2;
+}
+
+/*.bg-image-main{
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	min-height: 100vh;
+	max-height: 500vh;
+	min-width: 100vw;
+	display: block;
+	position: relative;
+	background-image: url(./images/bg.jpg);
+	background-size: 200%;
+	background-position: center;
+	background-repeat: no-repeat;
+}*/
+
+.bg-main {
+	background-color: #141C27;
+}
+
+.bg-image-main {
+	background: url(./images/bg.jpg);
+	background-color: #141C27;
+	background-size: cover;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+/*card titles*/
+.ct-u {
+	color: black;
+}
+
+.ct-u:hover {
+	color: white;
+	background-color: black;
+}
+
+.cp-b {
+	color: black;
+}
+
+.cp-b:hover {
+	color: white;
+	background-color: #141C27;
+
+}
+
+/*navbar */
+.bg-nav {
+	background-color: rgba(20, 28, 39, 0.8);
+}
+
+.bg-toggler {
+/*	background-color: white;*/
+	color: white;
+	border-radius: 0.3em;
+	border: 3px solid white;
+}
+
+.bg-toggler:hover {
+	background-color: white;
+	color: white;
+	border-radius: 0.3em;
+/*	border: 3px solid white;*/
+}
+
+.dyaho{
+	color: white;
+}
+.dyaho:hover {
+	border: 1px solid white;
+}
+
+
+/*for landing page*/
+.p-c {
+	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+}
+
+.name-big {
+	font-size: 8vw;
+
+}
+
+.name-med {
+	font-size: 3vw;
+
+}
+
+/* section */
+.section-container {
+	height: 100%;
+	width: 100%;
+
+}
+
+/*Contact Section*/
+form label + input {
+	display: block;
+	margin: auto;
+
+}
+
+form textarea {
+	display: block;
+	margin: auto;
+}
+
+form select {
+	display: block;
+	margin: auto;
+}
+
+.contact-ud {
+	color: white;
+	text-decoration: none;
+}
+
+.contact-ud:hover {
+	text-decoration: underline;
+	text-decoration-color: skyblue;
+	text-decoration-thickness: 0.3em;
+}
